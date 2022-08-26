@@ -1,0 +1,8 @@
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\bin\Debug\InteragindoComInternet.exe.config
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\bin\Debug\InteragindoComInternet.exe
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\bin\Debug\InteragindoComInternet.pdb
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.csproj.AssemblyReference.cache
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.csproj.CoreCompileInputs.cache
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.exe
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.pdb
