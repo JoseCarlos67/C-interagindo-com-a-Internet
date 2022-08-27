@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace InteragindoComInternet
 {
@@ -12,7 +13,14 @@ namespace InteragindoComInternet
     {
         static void Main(string[] args)
         {
-             
+
+            ReqUnica();
+            Console.ReadKey();
+
+        }
+
+        static void ReqList()
+        {
             var requisicao = WebRequest.Create("https://jsonplaceholder.typicode.com/todos/");
             requisicao.Method = "GET";
             var resposta = requisicao.GetResponse();
@@ -24,7 +32,12 @@ namespace InteragindoComInternet
                 StreamReader leitor = new StreamReader(stream);
                 object dados = leitor.ReadToEnd();
 
-                Console.WriteLine(dados.ToString());
+                List<Tarefa> tarefas = JsonConvert.DeserializeObject<List<Tarefa>>(dados.ToString());
+
+                foreach (Tarefa tarefa in tarefas)
+                {
+                    tarefa.Exibir();
+                }
 
                 stream.Close();
                 resposta.Close();
@@ -33,5 +46,30 @@ namespace InteragindoComInternet
             Console.ReadKey();
 
         }
+
+        static void ReqUnica()
+        {
+            var requisicao = WebRequest.Create("https://jsonplaceholder.typicode.com/todos/5");
+            requisicao.Method = "GET";
+            var resposta = requisicao.GetResponse();
+
+            using (resposta)
+            {
+
+                var stream = resposta.GetResponseStream();
+                StreamReader leitor = new StreamReader(stream);
+                object dados = leitor.ReadToEnd();
+
+                Tarefa tarefa = JsonConvert.DeserializeObject<Tarefa>(dados.ToString());
+
+                tarefa.Exibir();
+                
+                stream.Close();
+                resposta.Close();
+
+            }
+            Console.ReadKey();
+        }
+
     }
 }

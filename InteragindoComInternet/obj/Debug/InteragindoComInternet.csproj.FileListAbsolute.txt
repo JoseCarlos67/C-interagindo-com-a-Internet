@@ -6,3 +6,6 @@ C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComI
 C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.csproj.CoreCompileInputs.cache
 C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.exe
 C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.pdb
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Windows.lite\Desktop\C# com HTTP\InteragindoComInternet\InteragindoComInternet\obj\Debug\InteragindoComInternet.csproj.CopyComplete
